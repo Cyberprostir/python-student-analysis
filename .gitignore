@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database Configuration (contains sensitive credentials)
+config/database_config.json
+
+# Log files
+logs/*.log
+*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Database dumps or backups
+*.sql
+*.dump
+
+# Output files that might contain sensitive data
+output/*.csv
+output/*.xlsx
+output/*.txt
+
+# Keep directory structure but ignore contents
+logs/.gitkeep
+output/.gitkeep
+reference_guide.md
+reference_guide.md
+reference_guide.md
