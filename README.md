@@ -127,6 +127,7 @@ Package Installation: Install required dependencies using pip and requirements.t
 Configuration: Create database configuration file based on provided template
 
 Project Structure
+```
 python_student_analysis/
 ├── src/                          # Python scripts implementing the analysis pipeline
 │   ├── 01_data_exploration.py    # Dataset examination and quality assessment
@@ -140,6 +141,7 @@ python_student_analysis/
 │   └── database_config_template.json  # Database connection template
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python package dependencies
+```
 Running the Analysis
 Execute the scripts in numerical order to complete the full analytical workflow:
 
